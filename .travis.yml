@@ -10,7 +10,7 @@ deploy:
   fqgd: smithpeder.github.io/statutter
   local-dir: gh-pages
   skip-cleanup: true
-  # github-token: $GITHUB_TOKEN
+  github-token: $GITHUB_TOKEN
   keep-history: true
   on:
     branch: master
