@@ -7,7 +7,6 @@ script:
 
 deploy:
   provider: pages
-  fqgd: smithpeder.github.io/statutter
   local-dir: gh-pages
   skip-cleanup: true
   github-token: $GITHUB_TOKEN
